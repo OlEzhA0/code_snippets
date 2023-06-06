@@ -117,8 +117,9 @@ async function async1() {
 
 async function async2() {
   console.log("async2");
-  await async3();
 }
+
+async1()
 
 setTimeout(function () {
   console.log("setTimeout");

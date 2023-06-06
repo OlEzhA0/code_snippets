@@ -89,3 +89,24 @@ add5(10);
 
 var add10 = outerFn(10);
 add10(20);
+
+// Task
+const adder = (init = 0) => {
+  let counter = init;
+
+  const addFn = (arg) => {
+    if (arg) {
+      counter += arg;
+      return addFn;
+    }
+
+    return counter;
+  };
+};
+
+const add = adder();
+
+add(2);
+add(4);
+add(3);
+add(); // 9

@@ -191,7 +191,7 @@ new Promise(function (resolve) {
 
 // Output:
 // "begins"
-// "promise "
+// "promise 2"
 // "setTimeout 1"
 // "promise 1"
 // "setTimeout 2"
