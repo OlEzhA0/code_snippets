@@ -103,6 +103,33 @@ setTimeout(function () {
 }, 0);
 // ----------------
 // ----------------
+
+// Example 7
+console.log("1");
+
+setTimeout(function () {
+  console.log("2");
+
+  setTimeout(function () {
+    console.log("3");
+    
+    setTimeout(function () {
+        console.log("4");
+    }, 0);
+  }, 0);
+}, 0);
+
+console.log("5");
+
+setTimeout(function () {
+  console.log("6");
+ 
+  setTimeout(function () {
+    console.log("7");
+  }, 0);
+}, 0);
+// ----------------
+// ----------------
 // ----------------
 // ----------------
 // ----------------
